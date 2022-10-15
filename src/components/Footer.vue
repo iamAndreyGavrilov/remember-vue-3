@@ -6,7 +6,7 @@
       target="_blank"
       rel="noopener noreferrer"
     ></a> -->
-    <a href="/about">About</a>
+    <router-link to="/about">About</router-link>
   </footer>
 </template>
 
