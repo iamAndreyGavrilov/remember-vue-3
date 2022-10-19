@@ -1,7 +1,8 @@
-// const { defineConfig } = require("@vue/cli-service");
-// module.exports = defineConfig({
-//   transpileDependencies: true,
-// });
+const { defineConfig } = require("@vue/cli-service");
+module.exports = defineConfig({
+  base: "/remember-vue-3",
+  transpileDependencies: true,
+});
 
 module.exports = {
   devServer: {
